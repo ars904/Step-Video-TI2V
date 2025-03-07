@@ -19,7 +19,7 @@
 
 
 ```bash
-git clone git@gitlab.basemind.com:fisherma/StepFun-StepVideo.git
+git clone https://github.com/stepfun-ai/Step-Video-TI2V.git
 conda create -n stepvideo python=3.10
 conda activate stepvideo
 
