@@ -38,7 +38,6 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 ## Motion Control
 
-
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
     <td><video src="https://github.com/user-attachments/assets/3c6a5c8d-ada4-484f-8f3d-f2a99ef18a4b" width="100%" controls autoplay loop muted></video></td>
@@ -46,6 +45,8 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
     <td><video src="https://github.com/user-attachments/assets/e58d3a6b-0076-4587-aac5-6911ba4c776d" width="100%" controls autoplay loop muted></video></td>
   </tr>
 </table>
+
+## Motion dynamics
 
 ## Camera Control
 
