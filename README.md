@@ -1,4 +1,4 @@
-# Step-Video-Ti2V
+# Step-Video-TI2V
 
 <p align="center">
   <img src="assets/logo.png"  height=100>
