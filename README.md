@@ -38,11 +38,12 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 ## Motion Control
 
+
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/58173d59-e98d-4559-8f36-b0180a0017ef" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/41f58d57-18ab-4ff3-acab-f492ec36ab30" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/a27c36ad-769c-4426-89a7-f5ab409478ad" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/3c6a5c8d-ada4-484f-8f3d-f2a99ef18a4b" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/90c608d9-b3cf-40fa-b4ee-21b682c840ae" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/e58d3a6b-0076-4587-aac5-6911ba4c776d" width="100%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
