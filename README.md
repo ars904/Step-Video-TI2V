@@ -53,16 +53,6 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 ## Special Effects
 
 ## Real-world
- <tr>
-    <td><video src="https://github.com/user-attachments/assets/73ebf086-ae99-4f81-a0ca-bf2c1a44109f" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/b7c197c9-6846-4e58-8555-0f2a1f72fd18" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/13463dcc-c5ee-470a-81d1-fe39fc229fd8" width="100%" controls autoplay loop muted></video></td>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/e6247a57-cd75-4989-bbd1-c896a95679b6" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/e8642b3c-4114-432b-a72b-140d830f8f59" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/6d893dad-556d-4527-a882-666cba3d10e9" width="100%" controls autoplay loop muted></video></td>
-  </tr>
 
 ## Anime-style
 
