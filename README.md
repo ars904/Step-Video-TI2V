@@ -80,10 +80,8 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 | Models        |                       Download Link                                           |    Notes                      |
 | --------------|-------------------------------------------------------------------------------|-------------------------------|
-| T2V-14B       |     x      x        | Supports both 480P and 720P
-| I2V-14B-720P  |     x   x     | Supports 720P
-| I2V-14B-480P  |      x    x     | Supports 480P
-| T2V-1.3B      |      x     x        | Supports 480P
+| T2V-14B       |     x      x        | Supports 540P
+
 
 ## 1. Introduction
 We present Step-Video-TI2V, a state-of-the-art text-driven image-to-video generation model with 30B parameters, capable of generating videos up to 102 frames
