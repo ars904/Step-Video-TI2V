@@ -49,6 +49,15 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 ## Camera Control
 
+<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/d310502a-4f7e-4a78-882f-95c46b4dfe67" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/f6426fc7-2a18-474c-9766-fc8ae8d8d40d" width="100%" controls autoplay loop muted></video></td>
+  </tr>
+</table>
+
+
 ## Special Effects
 
 ## Real-world
