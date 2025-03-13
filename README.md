@@ -81,7 +81,7 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 | Models        |                       Download Link                                           |    Notes                      |
 | --------------|-------------------------------------------------------------------------------|-------------------------------|
-| T2V-14B       |     x      x        | Supports 540P
+| TI2V-30B       |     x      x        | Supports 540P
 
 
 ## 1. Introduction
