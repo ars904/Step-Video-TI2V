@@ -36,6 +36,9 @@ model_dir=where_you_download_dir
 torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_url $url --caption_url $url  --ulysses_degree  $parallel --prompt "笑起来" --first_image_path ./assets/demo.png --infer_steps 50  --cfg_scale 9.0 --time_shift 13.0
 ```
 
+
+
+
 ## Motion Control
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
@@ -46,7 +49,15 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
   </tr>
 </table>
 
-## Motion dynamics
+## Motion Level Control
+
+<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/9ff234e6-260d-4976-afc3-a754bfe7fb89" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/119a3673-014f-4772-b846-718307a4a412" width="100%" controls autoplay loop muted></video></td>
+  </tr>
+</table>
 
 ## Camera Control
 
