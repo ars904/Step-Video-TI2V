@@ -76,3 +76,13 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 6. [Online Engine](#6-online-engine)
 7. [Citation](#7-citation)
 8. [Acknowledgement](#8-ackownledgement)
+
+
+#### Model Download
+
+| Models        |                       Download Link                                           |    Notes                      |
+| --------------|-------------------------------------------------------------------------------|-------------------------------|
+| T2V-14B       |     x      x        | Supports both 480P and 720P
+| I2V-14B-720P  |     x   x     | Supports 720P
+| I2V-14B-480P  |      x    x     | Supports 480P
+| T2V-1.3B      |      x     x        | Supports 480P
