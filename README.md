@@ -84,3 +84,18 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 | I2V-14B-720P  |     x   x     | Supports 720P
 | I2V-14B-480P  |      x    x     | Supports 480P
 | T2V-1.3B      |      x     x        | Supports 480P
+
+## 1. Introduction
+We present Step-Video-TI2V, a state-of-the-art text-driven image-to-video generation model with 30B parameters, capable of generating videos up to 102 frames
+based on both text and image inputs. We build Step-Video-TI2V-Eval as a new benchmark for the text-driven image-to-video task and compare Step-Video-TI2V
+with open-source and commercial TI2V engines using this dataset. Experimental results demonstrate the state-of-the-art performance of Step-Video-TI2V in the
+image-to-video generation task. Both Step-Video-TI2V and Step-Video-TI2V-Eval are available.
+
+## 2. Model Summary
+Step-Video-TI2V based on Step-Video-T2V. To incorporate the image condition as the first frame of the generated video, we encode it into latent representations using Step-Video- T2V’s Video-VAE and concatenate them along the channel dimension of the video latent. Additionally, we introduce a motion score condition, enabling users to control the dynamic level of the video generated from the image condition. Figure 1 shows an overview of our framework, highlighting these two modifications to the pre-trained T2V model. 
+
+<p align="center">
+  <img width="80%" src="assets/model_architecture.png">
+</p>
+
+
