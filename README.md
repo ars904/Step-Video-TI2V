@@ -42,18 +42,18 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
-    <td><video src="[https://github.com/user-attachments/assets/9274b351-595d-41fb-aba3-f58e6e91603a](https://github.com/user-attachments/assets/58173d59-e98d-4559-8f36-b0180a0017ef)" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="[https://github.com/user-attachments/assets/2f6b3ad5-e93b-436b-98bc-4701182d8652](https://github.com/user-attachments/assets/41f58d57-18ab-4ff3-acab-f492ec36ab30)" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="[https://github.com/user-attachments/assets/67d20ee7-ad78-4b8f-80f6-3fdb00fb52d8](https://github.com/user-attachments/assets/a27c36ad-769c-4426-89a7-f5ab409478ad)" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/58173d59-e98d-4559-8f36-b0180a0017ef" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/41f58d57-18ab-4ff3-acab-f492ec36ab30" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/a27c36ad-769c-4426-89a7-f5ab409478ad" width="100%" controls autoplay loop muted></video></td>
   </tr>
   <tr>
-    <td><video src="[https://github.com/user-attachments/assets/9abce409-105d-4a8a-ad13-104a98cc8a0b](https://github.com/user-attachments/assets/73ebf086-ae99-4f81-a0ca-bf2c1a44109f)" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="[https://github.com/user-attachments/assets/8d1e1a47-048a-49ce-85f6-9d013f2d8e89](https://github.com/user-attachments/assets/b7c197c9-6846-4e58-8555-0f2a1f72fd18)" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="[https://github.com/user-attachments/assets/32cf4bd1-ec1f-4f77-a488-cd0284aa81bb](https://github.com/user-attachments/assets/13463dcc-c5ee-470a-81d1-fe39fc229fd8)" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/73ebf086-ae99-4f81-a0ca-bf2c1a44109f" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/b7c197c9-6846-4e58-8555-0f2a1f72fd18" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/13463dcc-c5ee-470a-81d1-fe39fc229fd8" width="100%" controls autoplay loop muted></video></td>
   </tr>
   <tr>
-    <td><video src="[https://github.com/user-attachments/assets/f95a7a49-032a-44ea-a10f-553d4e5d21c6](https://github.com/user-attachments/assets/e6247a57-cd75-4989-bbd1-c896a95679b6)" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="[https://github.com/user-attachments/assets/3534072e-87d9-4128-a87f-28fcb5d951e0](https://github.com/user-attachments/assets/e8642b3c-4114-432b-a72b-140d830f8f59)" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/e6247a57-cd75-4989-bbd1-c896a95679b6" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/e8642b3c-4114-432b-a72b-140d830f8f59" width="100%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/6d893dad-556d-4527-a882-666cba3d10e9" width="100%" controls autoplay loop muted></video></td>
   </tr>
 
