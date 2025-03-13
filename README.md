@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/b40274e3-ebe8-4e4b-afb8-887e66332c8d)# Step-Video-TI2V
-
 <p align="center">
   <img src="assets/logo.png"  height=100>
 </p>
