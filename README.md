@@ -59,9 +59,9 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
     <th style="width: 33%;">Motion = 10</th>
   </tr>
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/0d6b1813-2bf0-462a-8ad4-c0583d83afc5" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/33699654-93cc-4205-8a47-93ece4282f72" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/52d73eb5-2c68-4de3-9019-516243804b2c" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/0d6b1813-2bf0-462a-8ad4-c0583d83afc5" width="33%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/33699654-93cc-4205-8a47-93ece4282f72" width="33%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/52d73eb5-2c68-4de3-9019-516243804b2c" width="33%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
@@ -72,9 +72,9 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
     <th style="width: 33%;">Motion = 10</th>
   </tr>
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/9ff234e6-260d-4976-afc3-a754bfe7fb89" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/119a3673-014f-4772-b846-718307a4a412" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="33%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/9ff234e6-260d-4976-afc3-a754bfe7fb89" width="33%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/119a3673-014f-4772-b846-718307a4a412" width="33%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
