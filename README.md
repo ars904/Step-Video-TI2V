@@ -88,9 +88,9 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
     <th style="width: 33%;">镜头拉远</th>
   </tr>
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" width="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/d310502a-4f7e-4a78-882f-95c46b4dfe67" width="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/f6426fc7-2a18-474c-9766-fc8ae8d8d40d" width="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" height="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/d310502a-4f7e-4a78-882f-95c46b4dfe67" height="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/f6426fc7-2a18-474c-9766-fc8ae8d8d40d" height="30%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
