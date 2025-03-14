@@ -22,6 +22,11 @@
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
+    <th style="width: 33%;">战马跳跃</th>
+    <th style="width: 33%;">战马蹲下</th>
+    <th style="width: 33%;">战马向前奔跑，然后转身</th>
+  </tr>
+  <tr>
     <td><video src="https://github.com/user-attachments/assets/e664f45c-b8cd-4f89-9858-eaaef54aa0f6" width="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/eb2d09b0-cc37-4f27-85c7-a31b6840fa69" width="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/d17eba41-82f6-4ee2-8a99-3f21af112af0" width="30%" controls autoplay loop muted></video></td>
@@ -32,6 +37,11 @@
 
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
+  <tr>
+    <th style="width: 33%;">motion=2</th>
+    <th style="width: 33%;">motion=5</th>
+    <th style="width: 33%;">motion=20</th>
+  </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="33%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/913a407e-55ca-4a33-bafe-bd5e38eec5f5" width="33%" controls autoplay loop muted></video></td>
@@ -73,22 +83,6 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 | **Tracking Shot**  | 镜头跟随 |
 | **Orbit Shot** | 镜头环绕  |
 | **Rack Focus**  | 焦点转移           |
-
-
-🎬 Advanced Movements
-Dolly Zoom (Hitchcock Effect)
-Grammy-Style Motion
-
-<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
-  <tr>
-    <th style="width: 50%;">摄像机从下到中顺时针绕人物移动，镜头推远，1秒后慢镜头拍摄，人物从斜侧背对镜头，转过身正面面对镜头</th>
-    <th style="width: 50%;">摄像机从下到中顺时针绕人物90度移动，镜头拉近，1秒后慢镜头拍摄，人物从背对镜头，身体逆时针旋转 180 度最终正对镜头</th>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/e2931131-e159-44ea-91a8-82bfe7886447" height="10%" width="50%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/6e4b893a-51bf-49b0-8335-13674da3162b" height="10%" width="50%" controls autoplay loop muted></video></td>
-  </tr>
-</table>
 
 
 🔧 Motion Score Considerations
