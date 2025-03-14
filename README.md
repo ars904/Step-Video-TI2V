@@ -92,9 +92,9 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
-    <th style="width: 33%;">机器人变身特效</th>
-    <th style="width: 33%;">机器人变身特效</th>
-    <th style="width: 33%;">机器人变身特效</th>
+    <th style="width: 33%;">狸猫战士双手缓缓上扬，雷电从手中向四周扩散，身后灵兽影像的双眼闪烁强光，张开巨口发出低吼</th>
+    <th style="width: 33%;">女人眨眼，然后对着镜头做飞吻的动作</th>
+    <th style="width: 33%;">女生向前行走，背景是虚化模糊的效果</th>
   </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/73ffd269-a5c8-4255-8809-161501273bfd" height="30%" controls autoplay loop muted></video></td>
