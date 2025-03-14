@@ -176,8 +176,6 @@ We list some more useful configurations for easy usage:
 |     `--save-path`      | ./results |     Path to save the generated video      |
 
 
-[VBench](https://arxiv.org/html/2411.13503v1) is a comprehensive benchmark suite that deconstructs “video generation quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods. We utilize the VBench-I2V benchmark to assess the performance of Step-Video-TI2V alongside other TI2V models. 
-
 
 ##  📈 5. Benchmark
 
@@ -211,9 +209,8 @@ To evaluate the performance of Step-Video-TI2V, we build [Step-Video-TI2V-Eval](
   </tbody>
 </table>
 
+
 [VBench](https://arxiv.org/html/2411.13503v1) is a comprehensive benchmark suite that deconstructs “video generation quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods. We utilize the VBench-I2V benchmark to assess the performance of Step-Video-TI2V alongside other TI2V models. 
-
-
 
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
@@ -309,9 +306,6 @@ To evaluate the performance of Step-Video-TI2V, we build [Step-Video-TI2V-Eval](
     <td>70.82</td>
   </tr>
 </table>
-
-
-<p style="text-align: center;"><strong>Table 2: Comparison with two open-source TI2V models using VBench-I2V.</strong></p>
 
 
 ## 5. Online Engine
