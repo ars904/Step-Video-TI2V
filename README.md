@@ -28,7 +28,7 @@
   </tr>
 </table>
 
-## Motion Amplitude Control
+## Motion Dynamics Control
 
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
