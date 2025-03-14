@@ -13,7 +13,7 @@
 
 ## 🔥🔥🔥 News!!
 * Mar 17, 2025: 👋 We release the inference code and model weights of Step-Video-Ti2V. [Download](https://huggingface.co/stepfun-ai/stepvideo-ti2v)
-* Mar 17, 2025: 👋 We release the new TI2V benchmark Step-Video-TI2V-Eval(https://github.com/stepfun-ai/Step-Video-TI2V/tree/main/benchmark/Step-Video-TI2V-Eval)
+* Mar 17, 2025: 👋 We release the new TI2V benchmark [Step-Video-TI2V-Eval](https://github.com/stepfun-ai/Step-Video-TI2V/tree/main/benchmark/Step-Video-TI2V-Eval)
 * Mar 17, 2025: 👋 Step-Video-TI2V has been integrated into [ComfyUI-Stepvideo-ti2v](https://github.com/stepfun-ai/ComfyUI-StepVideo). Enjoy!
 * Mar 17, 2025: 🎉 We have made our technical report available as open source. [Read](https://arxiv.org/abs/2502.10248)
 
