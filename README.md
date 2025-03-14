@@ -191,7 +191,7 @@ git clone https://github.com/stepfun-ai/Step-Video-TI2V.git
 conda create -n stepvideo python=3.10
 conda activate stepvideo
 
-cd StepFun-StepVideo
+cd Step-Video-TI2V
 pip install -e .
 ```
 
