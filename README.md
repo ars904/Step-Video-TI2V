@@ -139,8 +139,6 @@ High-Angle Dolly In / Dolly Out
 🎬 Advanced Movements
 Dolly Zoom (Hitchcock Effect)
 Grammy-Style Motion
-<th style="width: 10%;">摄像机从下到中顺时针绕人物移动，镜头推远，1秒后慢镜头拍摄，人物从斜侧背对镜头，转过身正面面对镜头</th>
-<video src="https://github.com/user-attachments/assets/e2931131-e159-44ea-91a8-82bfe7886447" height="10%" width="10%" controls autoplay loop muted></video>
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
@@ -152,7 +150,6 @@ Grammy-Style Motion
     <td><video src="https://github.com/user-attachments/assets/6e4b893a-51bf-49b0-8335-13674da3162b" height="10%" width="50%" controls autoplay loop muted></video></td>
   </tr>
 </table>
-
 
 
 🔧 Motion Score Considerations
@@ -220,4 +217,8 @@ Step-Video-TI2V based on Step-Video-T2V. To incorporate the image condition as t
   <img width="80%" src="assets/model.png">
 </p>
 
+## 3. Model Download
+| Models   | 🤗Huggingface    |  🤖Modelscope |
+|:-------:|:-------:|:-------:|
+| Step-Video-T2V | [download](https://huggingface.co/stepfun-ai/stepvideo-ti2v) | 
 
