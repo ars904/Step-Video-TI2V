@@ -38,9 +38,9 @@
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
   <tr>
-    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion=2)</th>
-    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion=5)</th>
-    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion=20)</th>
+    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion_score: 2)</th>
+    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion_score: 5)</th>
+    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion_score: 20)</th>
   </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="33%" controls autoplay loop muted></video></td>
@@ -50,11 +50,16 @@
 </table>
 
 🎯 Tips 
-The default motion_score = 5 is suitable for general use. If you need more stability, set motion_score = 2, though it may be less responsive to certain movements. For greater movement flexibility, you can use motion_score = 10 or motion_score = 20 to enable more intense actions. Feel free to customize the motion_score based on your creative needs to fit different use cases.
+The default motion_score = 5 is suitable for general use. If you need more stability, set motion_score = 2, though it may lack dynamism in certain movements. For greater movement flexibility, you can use motion_score = 10 or motion_score = 20 to enable more intense actions. Feel free to customize the motion_score based on your creative needs to fit different use cases.
 
 ## Camera Control
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
+  <tr>
+    <th style="width: 33%;">镜头环绕女孩，女孩在跳舞</th>
+    <th style="width: 33%;">镜头缓慢推进，女孩在跳舞</th>
+    <th style="width: 33%;">镜头拉远，女孩在跳舞</th>
+  </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" height="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/d310502a-4f7e-4a78-882f-95c46b4dfe67" height="30%" controls autoplay loop muted></video></td>
@@ -62,13 +67,6 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
   </tr>
 </table>
 
-<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/f78f76a0-afe1-41b1-9914-f2f508c6ea50" width="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/3894ec0f-d483-41fe-8331-68b6e5bf6544" width="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/d064b143-89e5-40c1-a64a-e7fd38cebd19" width="30%" controls autoplay loop muted></video></td>
-  </tr>
-</table>
 
 ### Supported Camera Movements | 支持的运镜方式
 
