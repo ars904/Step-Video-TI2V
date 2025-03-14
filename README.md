@@ -62,17 +62,17 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 
 ### Supported Camera Movements | 支持的运镜方式
 
-| Camera Movement         | 运镜方式            |
-| **Fixed Camera**        | 固定镜头            | 
-| **Pan Up/Down/Left/Right** | 镜头向上/下/左/右 | 
-| **Tilt Up/Down/Left/Right** | 镜头上/下/左/右摇 | 
-| **Zoom In/Out**  | 镜头放大/缩小  |
-| **Dolly In/Out** | 镜头推进/拉远 | 
-| **Camera Rotation**     | 镜头旋转            | 
-| **Tracking Shot** | 镜头跟随 | 
-| **Orbit Shot** | 镜头环绕 | 
-| **Rack Focus** | 焦点转移 |
-
+| Camera Movement               | 运镜方式           |
+|--------------------------------|--------------------|
+| **Fixed Camera**               | 固定镜头           |
+| **Pan Up/Down/Left/Right**     | 镜头上/下/左/右移 |
+| **Tilt Up/Down/Left/Right**    | 镜头上/下/左/右摇 |
+| **Zoom In/Out**                | 镜头放大/缩小       |
+| **Dolly In/Out**               | 镜头推进/拉远       |
+| **Camera Rotation**            | 镜头旋转           |
+| **Tracking Shot**  | 镜头跟随 |
+| **Orbit Shot** | 镜头环绕  |
+| **Rack Focus**  | 焦点转移           |
 
 
 🎬 Advanced Movements
