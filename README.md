@@ -66,7 +66,7 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
   <tr>
     <td><video src="https://github.com/user-attachments/assets/f78f76a0-afe1-41b1-9914-f2f508c6ea50" width="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/3894ec0f-d483-41fe-8331-68b6e5bf6544" width="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/9de3aa20-c797-4dac-bef1-ee064ed96ed4" width="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/d064b143-89e5-40c1-a64a-e7fd38cebd19" width="30%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
