@@ -130,9 +130,10 @@ Step-Video-TI2V based on Step-Video-T2V. To incorporate the image condition as t
 </p>
 
 ## 3. Model Download
-| Models   | 🤗Huggingface    |  🤖Modelscope | 🎛️ComfyUI |
-|:-------:|:-------:|:-------:|  Coming soon  | ComfyUI-Native |
-| Step-Video-T2V | [download](https://huggingface.co/stepfun-ai/stepvideo-ti2v) | 
+| Models              | 🤗 Huggingface  | 🤖 Modelscope  | 🎛️ ComfyUI  |
+|:------------------:|:--------------:|:-------------:|:-----------------:|
+| Step-Video-TI2V   | [Download](https://huggingface.co/stepfun-ai/stepvideo-ti2v)  | Coming Soon | Coming Soon |
+
 
 
 ## 4. Model Usage
