@@ -51,7 +51,6 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 ## Motion Level Control
 
-
 <table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
   <tr>
     <th style="width: 33%;">Motion = 2</th>
@@ -78,6 +77,7 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
   </tr>
 </table>
 
+The default motion_score = 5 is suitable for general use. If you need more stability, set motion_score = 2, though it may be less responsive to certain movements. For greater movement flexibility, you can use motion_score = 10 or motion_score = 20 to enable more intense actions. Feel free to customize the motion_score based on your creative needs to fit different use cases.
 
 ## Camera Control
 
