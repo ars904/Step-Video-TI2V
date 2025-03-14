@@ -88,6 +88,8 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
  
 ## Anime Style
 
+
+
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
     <th style="width: 33%;">机器人变身特效</th>
@@ -95,9 +97,9 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
     <th style="width: 33%;">机器人变身特效</th>
   </tr>
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/8fc6cc28-802c-4eff-bb18-6d512386d1f5" height="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/a6e4c817-3847-4ece-8b14-c57c4f666ba5" height="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/3cc15523-4dbe-4a39-9a1f-71fd2aeebf98" height="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/73ffd269-a5c8-4255-8809-161501273bfd" height="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/67038b85-19d4-4313-b386-f578b75dcad7" height="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/80be13a1-ea65-45c5-b7f4-c2488acbf2a3" height="30%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
