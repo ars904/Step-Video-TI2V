@@ -46,11 +46,6 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
-    <th style="width: 33%;">镜头环绕</th>
-    <th style="width: 33%;">镜头推进</th>
-    <th style="width: 33%;">镜头拉远</th>
-  </tr>
-  <tr>
     <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" height="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/d310502a-4f7e-4a78-882f-95c46b4dfe67" height="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/f6426fc7-2a18-474c-9766-fc8ae8d8d40d" height="30%" controls autoplay loop muted></video></td>
@@ -59,29 +54,29 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
-    <th style="width: 33%;">镜头固定</th>
-    <th style="width: 33%;">镜头左移</th>
-    <th style="width: 33%;">镜头右摇</th>
-  </tr>
-  <tr>
     <td><video src="https://github.com/user-attachments/assets/f78f76a0-afe1-41b1-9914-f2f508c6ea50" width="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/3894ec0f-d483-41fe-8331-68b6e5bf6544" width="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/d064b143-89e5-40c1-a64a-e7fd38cebd19" width="30%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
-🎥 Camera Motion Tips
-Fixed Camera
-Pan (Up/Down/Left/Right)
-Tilt (Up/Down/Left/Right)
-Zoom In / Zoom Out
-Dolly In / Dolly Out
-Camera Rotation
-Tracking Shot (Follow xxx)
-Orbit Shot (Circle Around xxx)
-Rack Focus (Focus Shift)
-Camera Shake
-High-Angle Dolly In / Dolly Out
+### Supported Camera Movements | 支持的运镜方式
+
+| Camera Movement         | 运镜方式            | Description / 说明 |
+|-------------------------|--------------------|--------------------|
+| **Fixed Camera**        | 固定镜头            | The camera remains stationary. / 摄像机固定不动。 |
+| **Pan (Up/Down/Left/Right)** | 镜头平移（上/下/左/右） | Moves the camera horizontally or vertically. / 水平或垂直移动摄像机。 |
+| **Tilt (Up/Down/Left/Right)** | 镜头摇动（上/下/左/右） | Tilts the camera angle up or down. / 调整摄像机角度上下倾斜。 |
+| **Zoom In / Zoom Out**  | 镜头放大 / 缩小（变焦） | Changes the focal length to magnify or reduce the scene. / 调整焦距放大或缩小画面。 |
+| **Dolly In / Dolly Out** | 镜头推进 / 拉远 | Moves the entire camera forward or backward. / 摄像机整体向前或向后移动。 |
+| **Camera Rotation**     | 镜头旋转            | Rotates the camera around its axis. / 摄像机围绕自身轴线旋转。 |
+| **Tracking Shot (Follow xxx)** | 镜头跟随 xxx | The camera follows a subject. (Specify the subject.) / 摄像机跟随某个主体运动（需指定主体）。 |
+| **Orbit Shot (Circle Around xxx)** | 镜头环绕 xxx | Moves the camera in a circular path around a subject. / 摄像机围绕指定主体环绕运动。 |
+| **Rack Focus (Focus Shift)** | 焦点转移 | Switches focus between subjects or objects. / 在不同主体或物体之间切换焦点。 |
+| **Camera Shake**        | 镜头晃动            | Simulates camera vibration or instability. / 模拟摄像机抖动或不稳定效果。 |
+| **High-Angle Dolly In / Dolly Out** | 高角度镜头推进 / 拉远 | Moves the camera forward or backward from a high angle. / 从高角度推进或拉远摄像机。 |
+
+
 
 🎬 Advanced Movements
 Dolly Zoom (Hitchcock Effect)
