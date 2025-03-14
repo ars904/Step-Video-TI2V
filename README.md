@@ -13,7 +13,7 @@
 
 ## 🔥🔥🔥 News!!
 * Mar 17, 2025: 👋 We release the inference code and model weights of Step-Video-Ti2V. [Download](https://huggingface.co/stepfun-ai/stepvideo-ti2v)
-* Mar 17, 2025: 👋 Step-Video-Ti2V has been integrated into [ComfyUI-Stepvideo-ti2v](https://comfyanonymous.github.io/ComfyUI_examples/xx/). Enjoy!
+* Mar 17, 2025: 👋 Step-Video-TI2V has been integrated into [ComfyUI-Stepvideo-ti2v](https://comfyanonymous.github.io/ComfyUI_examples/xx/). Enjoy!
 * Mar 17, 2025: 🎉 We have made our technical report available as open source. [Read](https://arxiv.org/abs/2502.10248)
 
 
@@ -175,6 +175,109 @@ We list some more useful configurations for easy usage:
 |  `--use-cpu-offload`   |   False   |    Use CPU offload for the model load to save more memory, necessary for high-res video generation    |
 |     `--save-path`      | ./results |     Path to save the generated video      |
 
+
+[VBench](https://arxiv.org/html/2411.13503v1) is a comprehensive benchmark suite that deconstructs “video generation quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods. We utilize the VBench-I2V benchmark to assess the performance of Step-Video-TI2V alongside other TI2V models. 
+
+
+
+
+
+<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
+  <tr>
+    <th style="width: 20%;">Scores</th>
+    <th style="width: 20%;">Step-Video-TI2V (motion=10)</th>
+    <th style="width: 20%;">Step-Video-TI2V (motion=5)</th>
+    <th style="width: 20%;">OSTopA</th>
+    <th style="width: 20%;">OSTopB</th>
+  </tr>
+  <tr>
+    <td><strong>Total Score</strong></td>
+    <td><strong>87.98</strong></td>
+    <td>87.80</td>
+    <td>87.49</td>
+    <td>86.77</td>
+  </tr>
+  <tr>
+    <td><strong>I2V Score</strong></td>
+    <td>95.11</td>
+    <td><strong>95.50</strong></td>
+    <td>94.63</td>
+    <td>93.25</td>
+  </tr>
+  <tr>
+    <td>Video-Text Camera Motion</td>
+    <td>48.15</td>
+    <td><strong>49.22</strong></td>
+    <td>29.58</td>
+    <td>46.45</td>
+  </tr>
+  <tr>
+    <td>Video-Image Subject Consistency</td>
+    <td>97.44</td>
+    <td><strong>97.85</strong></td>
+    <td>97.73</td>
+    <td>95.88</td>
+  </tr>
+  <tr>
+    <td>Video-Image Background Consistency</td>
+    <td>98.45</td>
+    <td>98.63</td>
+    <td><strong>98.83</strong></td>
+    <td>96.47</td>
+  </tr>
+  <tr>
+    <td><strong>Quality Score</strong></td>
+    <td><strong>80.86</strong></td>
+    <td>80.11</td>
+    <td>80.36</td>
+    <td>80.28</td>
+  </tr>
+  <tr>
+    <td>Subject Consistency</td>
+    <td>95.62</td>
+    <td><strong>96.02</strong></td>
+    <td>94.52</td>
+    <td><strong>96.28</strong></td>
+  </tr>
+  <tr>
+    <td>Background Consistency</td>
+    <td>96.92</td>
+    <td>97.06</td>
+    <td>96.47</td>
+    <td><strong>97.38</strong></td>
+  </tr>
+  <tr>
+    <td>Motion Smoothness</td>
+    <td>99.08</td>
+    <td><strong>99.24</strong></td>
+    <td>98.09</td>
+    <td>99.10</td>
+  </tr>
+  <tr>
+    <td>Dynamic Degree</td>
+    <td>48.78</td>
+    <td>36.58</td>
+    <td><strong>53.41</strong></td>
+    <td>38.13</td>
+  </tr>
+  <tr>
+    <td>Aesthetic Quality</td>
+    <td>61.74</td>
+    <td><strong>62.29</strong></td>
+    <td>61.04</td>
+    <td>61.82</td>
+  </tr>
+  <tr>
+    <td>Imaging Quality</td>
+    <td>70.17</td>
+    <td>70.43</td>
+    <td><strong>71.12</strong></td>
+    <td>70.82</td>
+  </tr>
+</table>
+
+
+<p style="text-align: center;"><strong>Table 2: Comparison with two open-source TI2V models using VBench-I2V.</strong></p>
 
 
 ## 5. Online Engine
