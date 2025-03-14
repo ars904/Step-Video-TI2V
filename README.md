@@ -86,7 +86,7 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 
 
 🔧 Motion Score Considerations
-motion_score = 5 or 10 offers smoother and more accurate motion than motion_score = 2, with motion_score = 10 providing the best responsiveness and camera tracking. Choosing the right setting enhances motion precision and fluidity.
+motion_score = 5 or 10 offers smoother and more accurate motion than motion_score = 2, with motion_score = 10 providing the best responsiveness and camera tracking. Choosing the suitable setting enhances motion precision and fluidity.
  
 ## Anime Style
 
@@ -124,7 +124,7 @@ with open-source and commercial TI2V engines using this dataset. Experimental re
 image-to-video generation task. Both Step-Video-TI2V and Step-Video-TI2V-Eval are available.
 
 ## 2. Model Summary
-Step-Video-TI2V based on Step-Video-T2V. To incorporate the image condition as the first frame of the generated video, we encode it into latent representations using Step-Video- T2V’s Video-VAE and concatenate them along the channel dimension of the video latent. Additionally, we introduce a motion score condition, enabling users to control the dynamic level of the video generated from the image condition. Figure 1 shows an overview of our framework, highlighting these two modifications to the pre-trained T2V model. 
+Step-Video-TI2V based on Step-Video-T2V. To incorporate the image condition as the first frame of the generated video, we encode it into latent representations using Step-Video- T2V’s Video-VAE and concatenate them along the channel dimension of the video latent. Additionally, we introduce a motion score condition, enabling users to control the dynamic level of the video generated from the image condition. 
 
 <p align="center">
   <img width="80%" src="assets/model.png">
