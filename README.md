@@ -235,7 +235,9 @@ We are releasing [Step-Video-Ti2V Eval](https://github.com/stepfun-ai/Step-Video
 generation task. The dataset comprises 178 real-world and 120 anime-style prompt-image pairs, ensuring broad coverage of diverse user scenarios. To achieve comprehensive representation, we
 developed a fine-grained schema for data collection in both categories. We compare Step-Video-TI2V with two recently released open-source TI2V models, OSTopA and
 OSTopB, as well as two close-source commercial TI2V models, CSTopC and CSTopD. All these four models originate from China. Generally, Step-Video-TI2V achieves state-of-the-art performance on the total score across the
-three evaluation dimensions in Step-Video-TI2V-Eval, either outperforming or matching leading open-source and closed-source commercial TI2V models.
+three evaluation dimensions in Step-Video-TI2V-Eval, either outperforming or matching leading open-source and closed-source commercial TI2V models. We also presented two results of Step-Video-TI2V, with the motion
+set to 5 and 10, respectively. As expected, this mechanism effectively balances the motion dynamics
+and stability (or consistency) of the generated videos.
 
 <p align="center">
   <img width="80%" src="assets/compare_2.png">
