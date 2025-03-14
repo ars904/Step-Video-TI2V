@@ -308,10 +308,10 @@ To evaluate the performance of Step-Video-TI2V, we build [Step-Video-TI2V-Eval](
 </table>
 
 
-## 5. Online Engine
+## 6. Online Engine
 The online version of Step-Video-TI2V is available on [跃问视频](https://yuewen.cn/videos), where you can also explore some impressive examples.
 
-## 6. Citation
+## 7. Citation
 ```
 @misc{ma2025stepvideot2vtechnicalreportpractice,
       title={Step-Video-Ti2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model}, 
