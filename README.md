@@ -88,7 +88,7 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 🔧 Motion Score Considerations
 motion_score = 5 or 10 offers smoother and more accurate motion than motion_score = 2, with motion_score = 10 providing the best responsiveness and camera tracking. Choosing the suitable setting enhances motion precision and fluidity.
  
-## Anime Style
+## Anime Style Generation
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
@@ -103,7 +103,7 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
   </tr>
 
 </table>
-
+Step-Video-TI2V excels in anime-style generation, allowing you to freely experiment with different anime styles and customize videos to your preference.
 
 ## Table of Contents
 
