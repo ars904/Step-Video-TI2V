@@ -43,9 +43,9 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/3c6a5c8d-ada4-484f-8f3d-f2a99ef18a4b" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/90c608d9-b3cf-40fa-b4ee-21b682c840ae" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/e58d3a6b-0076-4587-aac5-6911ba4c776d" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/3c6a5c8d-ada4-484f-8f3d-f2a99ef18a4b" width="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/90c608d9-b3cf-40fa-b4ee-21b682c840ae" width="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/e58d3a6b-0076-4587-aac5-6911ba4c776d" width="30%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
@@ -54,11 +54,11 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
     motion_score=2
-    <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="30%" controls autoplay loop muted></video></td>
     motion_score=5
-    <td><video src="https://github.com/user-attachments/assets/9ff234e6-260d-4976-afc3-a754bfe7fb89" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/9ff234e6-260d-4976-afc3-a754bfe7fb89" width="30%" controls autoplay loop muted></video></td>
     motion_score=10
-    <td><video src="https://github.com/user-attachments/assets/119a3673-014f-4772-b846-718307a4a412" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/119a3673-014f-4772-b846-718307a4a412" width="30%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
@@ -66,9 +66,9 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
-    <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/d310502a-4f7e-4a78-882f-95c46b4dfe67" width="100%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/f6426fc7-2a18-474c-9766-fc8ae8d8d40d" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" width="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/d310502a-4f7e-4a78-882f-95c46b4dfe67" width="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/f6426fc7-2a18-474c-9766-fc8ae8d8d40d" width="30%" controls autoplay loop muted></video></td>
   </tr>
 </table>
 
