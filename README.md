@@ -110,7 +110,7 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
 2. [Model Summary](#2-model-summary)
 3. [Model Download](#3-model-download)
 4. [Model Usage](#4-model-usage)
-5. [Comparisons](#5-benchmark)
+5. [Comparisons](#5-Comparisons)
 6. [Online Engine](#6-online-engine)
 7. [Citation](#7-citation)
 
@@ -177,11 +177,10 @@ We list some more useful configurations for easy usage:
 
 
 
-##  📈 5. Benchmark
+## 5. Comparisons
 
-To evaluate the performance of Step-Video-TI2V, we build [Step-Video-TI2V-Eval](Step-Video-TI2V/benchmark/Step-Video-TI2V-Eval at main · stepfun-ai/Step-Video-TI2V), a new benchmark designed for the text-driven image-to-video generation task. The dataset comprises 178 real-world and 120 anime-style prompt-image pairs, ensuring broad coverage of diverse user scenarios. To achieve comprehensive representation, we developed a fine-grained schema for data collection in both categories.
-[VBench](https://arxiv.org/html/2411.13503v1) is a comprehensive benchmark suite that deconstructs “video generation quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods. We utilize the VBench-I2V benchmark to assess the performance of Step-Video-TI2V alongside other TI2V models. 
-
+To evaluate the performance of Step-Video-TI2V, we submit the results to [VBench](https://arxiv.org/html/2411.13503v1), a comprehensive benchmark suite that deconstructs "video generation quality" into specific, hierarchical, and disentangled dimensions. Each dimension is assessed with tailored prompts and evaluation methods. We leverage VBench-I2V to systematically compare Step-Video-TI2V with other TI2V models. we also introduce a new benchmark dataset [Step-Video-TI2V-Eval](Step-Video-TI2V/benchmark/Step-Video-TI2V-Eval at main · stepfun-ai/Step-Video-TI2V), specifically
+designed for the TI2V task, fostering future research and evaluation in this domain.
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
