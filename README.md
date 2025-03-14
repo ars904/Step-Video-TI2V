@@ -16,41 +16,6 @@
 * Mar 17, 2025: 🎉 We have made our technical report available as open source. [Read](https://arxiv.org/abs/2502.10248)
 
 
-```bash
-git clone https://github.com/stepfun-ai/Step-Video-TI2V.git
-conda create -n stepvideo python=3.10
-conda activate stepvideo
-
-cd StepFun-StepVideo
-pip install -e .
-```
-
-###  🚀 4.2. Inference Scripts
-```bash
-python api/call_remote_server.py --model_dir where_you_download_dir &  ## We assume you have more than 4 GPUs available. This command will return the URL for both the caption API and the VAE API. Please use the returned URL in the following command.
-
-parallel=4  # or parallel=8
-url='127.0.0.1'
-model_dir=where_you_download_dir
-
-torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_url $url --caption_url $url  --ulysses_degree  $parallel --prompt "笑起来" --first_image_path ./assets/demo.png --infer_steps 50  --cfg_scale 9.0 --time_shift 13.0 --motion_score 5.0
-```
-
-We list some more useful configurations for easy usage:
-
-|        Argument        |  Default  |                Description                |
-|:----------------------:|:---------:|:-----------------------------------------:|
-|       `--model_dir`       |   None    |   The model checkpoint for video generation    |
-|     `--prompt`     | “笑起来”  |      The text prompt for I2V generation      |
-|    `--first_image_path`    |    ./assets/demo.png    |     The reference image path for I2V task.     |
-|    `--infer_steps`     |    50     |     The number of steps for sampling      |
-| `--cfg_scale` |    9.0    |    Embedded  Classifier free guidance scale       |
-|     `--time_shift`     |    7.0    | Shift factor for flow matching schedulers. |
-|     `--motion_score`   |    5.0  | Score to control the motion level of the video. |
-|        `--seed`        |     None  |   The random seed for generating video, if None, we init a random seed    |
-|  `--use-cpu-offload`   |   False   |    Use CPU offload for the model load to save more memory, necessary for high-res video generation    |
-|     `--save-path`      | ./results |     Path to save the generated video      |
-
 
 
 
@@ -215,4 +180,45 @@ Step-Video-TI2V based on Step-Video-T2V. To incorporate the image condition as t
 | Models   | 🤗Huggingface    |  🤖Modelscope |
 |:-------:|:-------:|:-------:|
 | Step-Video-T2V | [download](https://huggingface.co/stepfun-ai/stepvideo-ti2v) | 
+
+
+## 4. Model Usage
+
+### 📜 4.1  Dependencies and Installation
+
+```bash
+git clone https://github.com/stepfun-ai/Step-Video-TI2V.git
+conda create -n stepvideo python=3.10
+conda activate stepvideo
+
+cd StepFun-StepVideo
+pip install -e .
+```
+
+###  🚀 4.2. Inference Scripts
+```bash
+python api/call_remote_server.py --model_dir where_you_download_dir &  ## We assume you have more than 4 GPUs available. This command will return the URL for both the caption API and the VAE API. Please use the returned URL in the following command.
+
+parallel=4  # or parallel=8
+url='127.0.0.1'
+model_dir=where_you_download_dir
+
+torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_url $url --caption_url $url  --ulysses_degree  $parallel --prompt "笑起来" --first_image_path ./assets/demo.png --infer_steps 50  --cfg_scale 9.0 --time_shift 13.0 --motion_score 5.0
+```
+
+We list some more useful configurations for easy usage:
+
+|        Argument        |  Default  |                Description                |
+|:----------------------:|:---------:|:-----------------------------------------:|
+|       `--model_dir`       |   None    |   The model checkpoint for video generation    |
+|     `--prompt`     | “笑起来”  |      The text prompt for I2V generation      |
+|    `--first_image_path`    |    ./assets/demo.png    |     The reference image path for I2V task.     |
+|    `--infer_steps`     |    50     |     The number of steps for sampling      |
+| `--cfg_scale` |    9.0    |    Embedded  Classifier free guidance scale       |
+|     `--time_shift`     |    7.0    | Shift factor for flow matching schedulers. |
+|     `--motion_score`   |    5.0  | Score to control the motion level of the video. |
+|        `--seed`        |     None  |   The random seed for generating video, if None, we init a random seed    |
+|  `--use-cpu-offload`   |   False   |    Use CPU offload for the model load to save more memory, necessary for high-res video generation    |
+|     `--save-path`      | ./results |     Path to save the generated video      |
+
 
