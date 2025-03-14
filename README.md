@@ -139,17 +139,9 @@ High-Angle Dolly In / Dolly Out
 🎬 Advanced Movements
 Dolly Zoom (Hitchcock Effect)
 Grammy-Style Motion
+<th style="width: 33%;">摄像机从下到中顺时针绕人物移动，镜头推远，1秒后慢镜头拍摄，人物从斜侧背对镜头，转过身正面面对镜头</th>
+<video src="https://github.com/user-attachments/assets/e2931131-e159-44ea-91a8-82bfe7886447" height="50%" controls autoplay loop muted></video>
 
-<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
-  <tr>
-    <th style="width: 33%;">摄像机从人物正上方向正中间移动，镜头持续拉近，2秒后慢镜头拍摄</th>
-    <th style="width: 33%;">摄像机从下到中顺时针绕人物移动，镜头推远，1秒后慢镜头拍摄，人物从斜侧背对镜头，转过身正面面对镜头</th>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/4e37ae90-4e92-4d0c-be54-27b412c6f792" height="50%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/e2931131-e159-44ea-91a8-82bfe7886447" height="50%" controls autoplay loop muted></video></td>
-  </tr>
-</table>
 
 
 🔧 Motion Score Considerations
