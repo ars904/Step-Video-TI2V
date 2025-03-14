@@ -53,8 +53,11 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
+    motion_score=2
     <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="100%" controls autoplay loop muted></video></td>
+    motion_score=5
     <td><video src="https://github.com/user-attachments/assets/9ff234e6-260d-4976-afc3-a754bfe7fb89" width="100%" controls autoplay loop muted></video></td>
+    motion_score=10
     <td><video src="https://github.com/user-attachments/assets/119a3673-014f-4772-b846-718307a4a412" width="100%" controls autoplay loop muted></video></td>
   </tr>
 </table>
