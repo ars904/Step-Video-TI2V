@@ -65,16 +65,14 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 | Camera Movement         | 运镜方式            | Description / 说明 |
 |-------------------------|--------------------|--------------------|
 | **Fixed Camera**        | 固定镜头            | The camera remains stationary. / 摄像机固定不动。 |
-| **Pan (Up/Down/Left/Right)** | 镜头平移（上/下/左/右） | Moves the camera horizontally or vertically. / 水平或垂直移动摄像机。 |
-| **Tilt (Up/Down/Left/Right)** | 镜头摇动（上/下/左/右） | Tilts the camera angle up or down. / 调整摄像机角度上下倾斜。 |
-| **Zoom In / Zoom Out**  | 镜头放大 / 缩小（变焦） | Changes the focal length to magnify or reduce the scene. / 调整焦距放大或缩小画面。 |
-| **Dolly In / Dolly Out** | 镜头推进 / 拉远 | Moves the entire camera forward or backward. / 摄像机整体向前或向后移动。 |
+| **Pan Up/Down/Left/Right** | 镜头向上/下/左/右 | Moves the camera horizontally or vertically. / 水平或垂直移动摄像机。 |
+| **Tilt Up/Down/Left/Right** | 镜头上/下/左/右摇 | Tilts the camera angle up or down. / 调整摄像机角度上下倾斜。 |
+| **Zoom In/Out**  | 镜头放大/缩小  | Changes the focal length to magnify or reduce the scene. / 调整焦距放大或缩小画面。 |
+| **Dolly In/Out** | 镜头推进/拉远 | Moves the entire camera forward or backward. / 摄像机整体向前或向后移动。 |
 | **Camera Rotation**     | 镜头旋转            | Rotates the camera around its axis. / 摄像机围绕自身轴线旋转。 |
-| **Tracking Shot (Follow xxx)** | 镜头跟随 xxx | The camera follows a subject. (Specify the subject.) / 摄像机跟随某个主体运动（需指定主体）。 |
-| **Orbit Shot (Circle Around xxx)** | 镜头环绕 xxx | Moves the camera in a circular path around a subject. / 摄像机围绕指定主体环绕运动。 |
-| **Rack Focus (Focus Shift)** | 焦点转移 | Switches focus between subjects or objects. / 在不同主体或物体之间切换焦点。 |
-| **Camera Shake**        | 镜头晃动            | Simulates camera vibration or instability. / 模拟摄像机抖动或不稳定效果。 |
-| **High-Angle Dolly In / Dolly Out** | 高角度镜头推进 / 拉远 | Moves the camera forward or backward from a high angle. / 从高角度推进或拉远摄像机。 |
+| **Tracking Shot** | 镜头跟随 | The camera follows a subject. (Specify the subject.) / 摄像机跟随某个主体运动（需指定主体）。 |
+| **Orbit Shot** | 镜头环绕 | Moves the camera in a circular path around a subject. / 摄像机围绕指定主体环绕运动。 |
+| **Rack Focus** | 焦点转移 | Switches focus between subjects or objects. / 在不同主体或物体之间切换焦点。 |
 
 
 
