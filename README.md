@@ -49,7 +49,7 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
   </tr>
 </table>
 
-## Motion Level Control
+## Motion Amplitude Control
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
   <tr>
@@ -107,6 +107,25 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
   </tr>
 </table>
 
+🎥 Camera Motion Tips
+Fixed Camera
+Pan (Up/Down/Left/Right)
+Tilt (Up/Down/Left/Right)
+Zoom In / Zoom Out
+Dolly In / Dolly Out
+Camera Rotation
+Tracking Shot (Follow xxx)
+Orbit Shot (Circle Around xxx)
+Rack Focus (Focus Shift)
+Camera Shake
+High-Angle Dolly In / Dolly Out
+
+🎬 Advanced Movements
+Dolly Zoom (Hitchcock Effect)
+Grammy-Style Motion
+
+🔧 Motion Score Considerations
+Certain camera movements, especially tracking shots, orbit shots, and complex motion effects, work significantly better with motion_score = 5 or 10 rather than motion_score = 2. Choosing the right setting can greatly enhance motion smoothness and accuracy.
 ## Visual Effects
 
 ## Real-world
