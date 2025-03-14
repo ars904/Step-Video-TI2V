@@ -109,10 +109,9 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
 2. [Model Summary](#2-model-summary)
 3. [Model Download](#3-model-download)
 4. [Model Usage](#4-model-usage)
-5. [Benchmark](#5-benchmark)
+5. [Comparisons](#5-benchmark)
 6. [Online Engine](#6-online-engine)
 7. [Citation](#7-citation)
-8. [Acknowledgement](#8-ackownledgement)
 
 
 
@@ -166,7 +165,7 @@ We list some more useful configurations for easy usage:
 |:----------------------:|:---------:|:-----------------------------------------:|
 |       `--model_dir`       |   None    |   The model checkpoint for video generation    |
 |     `--prompt`     | “笑起来”  |      The text prompt for I2V generation      |
-|    `--first_image_path`    |    ./assets/demo.png    |     The reference image path for I2V task.     |
+|    `first_image_path`    |    ./assets/demo.png    |     The reference image path for I2V task.     |
 |    `--infer_steps`     |    50     |     The number of steps for sampling      |
 | `--cfg_scale` |    9.0    |    Embedded  Classifier free guidance scale       |
 |     `--time_shift`     |    7.0    | Shift factor for flow matching schedulers. |
@@ -176,33 +175,11 @@ We list some more useful configurations for easy usage:
 |     `--save-path`      | ./results |     Path to save the generated video      |
 
 
-## 5. Benchmark
-We first evaluated on VBench-I2V is a comprehensive benchmark suite that deconstructs “video generation
-quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods. We utilize the VBench-I2V benchmark to assess the performance of Step-Video-
-TI2V alongside other TI2V models.
 
-<p align="center">
-  <img width="80%" src="assets/compare_1.png">
-</p>
+## 5. Online Engine
+The online version of Step-Video-TI2V is available on [跃问视频](https://yuewen.cn/videos), where you can also explore some impressive examples.
 
-We are releasing [Step-Video-Ti2V Eval](https://github.com/stepfun-ai/Step-Video-T2V/blob/main/benchmark/Step-Video-TI2V-Eval) , a new benchmark designed for the text-driven image-to-video
-generation task. The dataset comprises 178 real-world and 120 anime-style prompt-image pairs, ensuring broad coverage of diverse user scenarios. To achieve comprehensive representation, we
-developed a fine-grained schema for data collection in both categories. We compare Step-Video-TI2V with two recently released open-source TI2V models, OSTopA and
-OSTopB, as well as two close-source commercial TI2V models, CSTopC and CSTopD. All these four models originate from China. Generally, Step-Video-TI2V achieves state-of-the-art performance on the total score across the
-three evaluation dimensions in Step-Video-TI2V-Eval, either outperforming or matching leading open-source and closed-source commercial TI2V models. We also presented two results of Step-Video-TI2V, with the motion
-set to 5 and 10, respectively. As expected, this mechanism effectively balances the motion dynamics
-and stability (or consistency) of the generated videos.
-
-<p align="center">
-  <img width="80%" src="assets/compare_2.png">
-</p>
-
-
-
-## 6. Online Engine
-The online version of Step-Video-T2V is available on [跃问视频](https://yuewen.cn/videos), where you can also explore some impressive examples.
-
-## 7. Citation
+## 6. Citation
 ```
 @misc{ma2025stepvideot2vtechnicalreportpractice,
       title={Step-Video-Ti2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model}, 
