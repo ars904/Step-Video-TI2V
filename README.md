@@ -103,7 +103,7 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
   </tr>
 
 </table>
-Step-Video-TI2V excels in anime-style generation, allowing you to freely experiment with different anime styles and customize videos to your preference.
+Step-Video-TI2V excels in anime-style generation, enabling you to explore various anime-style images and create customized videos to match your preferences.
 
 ## Table of Contents
 
