@@ -42,7 +42,7 @@ We list some more useful configurations for easy usage:
 |:----------------------:|:---------:|:-----------------------------------------:|
 |       `--model_dir`       |   None    |   The model checkpoint for video generation    |
 |     `--prompt`     | “笑起来”  |      The text prompt for I2V generation      |
-|    `--first_image_path`    |    ./assets/demo.png    |     The reference image path for image-to-video task.     |
+|    `--first_image_path`    |    ./assets/demo.png    |     The reference image path for I2V task.     |
 |    `--infer_steps`     |    50     |     The number of steps for sampling      |
 | `--cfg_scale` |    9.0    |    Embedded  Classifier free guidance scale       |
 |     `--time_shift`     |    7.0    | Shift factor for flow matching schedulers. |
