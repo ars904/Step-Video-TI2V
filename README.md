@@ -69,11 +69,11 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
   <tr>
     <th style="width: 33%;">Motion = 2</th>
     <th style="width: 33%;">Motion = 5</th>
-    <th style="width: 33%;">Motion = 10</th>
+    <th style="width: 33%;">Motion = 20</th>
   </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="33%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/9ff234e6-260d-4976-afc3-a754bfe7fb89" width="33%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/913a407e-55ca-4a33-bafe-bd5e38eec5f5" width="33%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/119a3673-014f-4772-b846-718307a4a412" width="33%" controls autoplay loop muted></video></td>
   </tr>
 </table>
