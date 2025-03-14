@@ -140,6 +140,18 @@ High-Angle Dolly In / Dolly Out
 Dolly Zoom (Hitchcock Effect)
 Grammy-Style Motion
 
+<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
+  <tr>
+    <th style="width: 33%;">摄像机从人物正上方向正中间移动，镜头持续拉近，2秒后慢镜头拍摄</th>
+    <th style="width: 33%;">摄像机从下到中顺时针绕人物移动，镜头推远，1秒后慢镜头拍摄，人物从斜侧背对镜头，转过身正面面对镜头</th>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/4e37ae90-4e92-4d0c-be54-27b412c6f792" height="50%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/e2931131-e159-44ea-91a8-82bfe7886447" height="50%" controls autoplay loop muted></video></td>
+  </tr>
+</table>
+
+
 🔧 Motion Score Considerations
 Certain camera movements, especially tracking shots, orbit shots, and complex motion effects, work significantly better with motion_score = 5 or 10 rather than motion_score = 2. Choosing the right setting can greatly enhance motion smoothness and accuracy.
 ## Visual Effects
@@ -202,7 +214,7 @@ image-to-video generation task. Both Step-Video-TI2V and Step-Video-TI2V-Eval ar
 Step-Video-TI2V based on Step-Video-T2V. To incorporate the image condition as the first frame of the generated video, we encode it into latent representations using Step-Video- T2V’s Video-VAE and concatenate them along the channel dimension of the video latent. Additionally, we introduce a motion score condition, enabling users to control the dynamic level of the video generated from the image condition. Figure 1 shows an overview of our framework, highlighting these two modifications to the pre-trained T2V model. 
 
 <p align="center">
-  <img width="80%" src="assets/model_architecture.png">
+  <img width="80%" src="assets/model.png">
 </p>
 
 
