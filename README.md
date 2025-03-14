@@ -223,12 +223,18 @@ We list some more useful configurations for easy usage:
 
 
 ## 5. Benchmark
-We are releasing [Step-Video-Ti2V Eval](https://github.com/stepfun-ai/Step-Video-T2V/blob/main/benchmark/Step-Video-T2V-Eval) as a new benchmark, featuring 298 Chinese prompts sourced from real users. This benchmark is designed to evaluate the quality of generated videos across 11 distinct categories: Sports, Food, Scenery, Animals, Festivals, Combination Concepts, Surreal, People, 3D Animation, Cinematography, and Style.
+We first evaluated on VBench-I2V is a comprehensive benchmark suite that deconstructs “video generation
+quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods. We utilize the VBench-I2V benchmark to assess the performance of Step-Video-
+TI2V alongside other TI2V models.
 
 
-We also evaluated our model on public benchmark and obtain the sota performance.
+We are releasing [Step-Video-Ti2V Eval](https://github.com/stepfun-ai/Step-Video-T2V/blob/main/benchmark/Step-Video-TI2V-Eval) , a new benchmark designed for the text-driven image-to-video
+generation task. The dataset comprises 178 real-world and 120 anime-style prompt-image pairs, ensuring broad coverage of diverse user scenarios. To achieve comprehensive representation, we
+developed a fine-grained schema for data collection in both categories. We compare Step-Video-TI2V with two recently released open-source TI2V models, OSTopA and
+OSTopB, as well as two close-source commercial TI2V models, CSTopC and CSTopD. All these four models originate from China. Generally, Step-Video-TI2V achieves state-of-the-art performance on the total score across the
+three evaluation dimensions in Step-Video-TI2V-Eval, either outperforming or matching leading open-source and closed-source commercial TI2V models.
 
-Vbench-I2V is a benchmark from the VBench (https://github.com/Vchitect/VBench/tree/master) suite for evaluating image-to-video generation performance. It features a high-quality image suite in diverse scales, ratios, and content variety. The benchmark contains nine dimensions to evaluate the performance of video-image consistency, motion, video quality, etc. Compared to the other two latest released I2V models, our Step-Video-TI2V model achieves state-of-the-art performance on the VBench-I2V with motion set to 5 and 10.
+
 
 
 ## 6. Online Engine
