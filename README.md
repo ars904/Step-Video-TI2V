@@ -51,6 +51,20 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 ## Motion Level Control
 
+
+<table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
+  <tr>
+    <th style="width: 33%;">Motion = 2</th>
+    <th style="width: 33%;">Motion = 5</th>
+    <th style="width: 33%;">Motion = 10</th>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/0d6b1813-2bf0-462a-8ad4-c0583d83afc5" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/33699654-93cc-4205-8a47-93ece4282f72" width="100%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/52d73eb5-2c68-4de3-9019-516243804b2c" width="100%" controls autoplay loop muted></video></td>
+  </tr>
+</table>
+
 <table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
   <tr>
     <th style="width: 33%;">Motion = 2</th>
