@@ -107,7 +107,7 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
   </tr>
 </table>
 
-## Special Effects
+## Visual Effects
 
 ## Real-world
 
