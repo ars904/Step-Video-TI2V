@@ -92,7 +92,7 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
   <tr>
     <th style="width: 33%;">女生向前行走，背景是虚化模糊的效果</th>
     <th style="width: 33%;">女人眨眼，然后对着镜头做飞吻的动作。</th>
-    <th style="width: 10%;">狸猫战士双手缓缓上扬，雷电从手中向四周扩散，<br>身后灵兽影像的双眼闪烁强光，</br>张开巨口发出低吼</th>
+    <th style="width: 10%;">狸猫战士双手缓缓上扬，雷电从手中向四周扩散，<br>身后灵兽影像的双眼闪烁强光，张开巨口发出低吼</br></th>
   </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/80be13a1-ea65-45c5-b7f4-c2488acbf2a3" height="33%" controls autoplay loop muted></video></td>
