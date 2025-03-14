@@ -227,6 +227,9 @@ We first evaluated on VBench-I2V is a comprehensive benchmark suite that deconst
 quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods. We utilize the VBench-I2V benchmark to assess the performance of Step-Video-
 TI2V alongside other TI2V models.
 
+<p align="center">
+  <img width="80%" src="assets/compare_1.png">
+</p>
 
 We are releasing [Step-Video-Ti2V Eval](https://github.com/stepfun-ai/Step-Video-T2V/blob/main/benchmark/Step-Video-TI2V-Eval) , a new benchmark designed for the text-driven image-to-video
 generation task. The dataset comprises 178 real-world and 120 anime-style prompt-image pairs, ensuring broad coverage of diverse user scenarios. To achieve comprehensive representation, we
@@ -234,6 +237,9 @@ developed a fine-grained schema for data collection in both categories. We compa
 OSTopB, as well as two close-source commercial TI2V models, CSTopC and CSTopD. All these four models originate from China. Generally, Step-Video-TI2V achieves state-of-the-art performance on the total score across the
 three evaluation dimensions in Step-Video-TI2V-Eval, either outperforming or matching leading open-source and closed-source commercial TI2V models.
 
+<p align="center">
+  <img width="80%" src="assets/compare_2.png">
+</p>
 
 
 
