@@ -30,25 +30,8 @@
 
 ## Motion Amplitude Control
 
-<table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
-  <tr>
-    <th style="width: 33%;">Motion = 2</th>
-    <th style="width: 33%;">Motion = 5</th>
-    <th style="width: 33%;">Motion = 10</th>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/0d6b1813-2bf0-462a-8ad4-c0583d83afc5" width="33%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/33699654-93cc-4205-8a47-93ece4282f72" width="33%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/52d73eb5-2c68-4de3-9019-516243804b2c" width="33%" controls autoplay loop muted></video></td>
-  </tr>
-</table>
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
-  <tr>
-    <th style="width: 33%;">Motion = 2</th>
-    <th style="width: 33%;">Motion = 5</th>
-    <th style="width: 33%;">Motion = 20</th>
-  </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="33%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/913a407e-55ca-4a33-bafe-bd5e38eec5f5" width="33%" controls autoplay loop muted></video></td>
