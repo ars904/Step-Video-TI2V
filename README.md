@@ -84,8 +84,9 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 
 
 🔧 Motion Score Considerations
-Certain camera movements, especially tracking shots, orbit shots, and complex motion effects, work significantly better with motion_score = 5 or 10 rather than motion_score = 2. Choosing the right setting can greatly enhance motion smoothness and accuracy.
-## Visual Effects
+motion_score = 5 or 10 offers smoother and more accurate motion than motion_score = 2, with motion_score = 10 providing the best responsiveness and camera tracking. Choosing the right setting enhances motion precision and fluidity.
+ 
+## Anime Style
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
@@ -99,20 +100,6 @@ Certain camera movements, especially tracking shots, orbit shots, and complex mo
     <td><video src="https://github.com/user-attachments/assets/3cc15523-4dbe-4a39-9a1f-71fd2aeebf98" height="30%" controls autoplay loop muted></video></td>
   </tr>
 </table>
-
-<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
-  <tr>
-    <th style="width: 33%;">毒液变身特效</th>
-    <th style="width: 33%;">机器人变身特效</th>
-    <th style="width: 33%;">毒液变身特效</th>
-  </tr>
-  <tr>
-    <td><video src="https://github.com/user-attachments/assets/b2fbc737-b6b5-480a-b747-09ee58058a05" height="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/ba19d48e-0e99-4dd6-8efb-f9c7f21372a6" height="30%" controls autoplay loop muted></video></td>
-    <td><video src="https://github.com/user-attachments/assets/b3e27eda-8127-4680-8da1-99fa0281335d" height="30%" controls autoplay loop muted></video></td>
-  </tr>
-</table>
-
 
 
 
