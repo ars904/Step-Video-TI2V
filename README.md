@@ -197,12 +197,6 @@ Certain camera movements, especially tracking shots, orbit shots, and complex mo
 8. [Acknowledgement](#8-ackownledgement)
 
 
-#### Model Download
-
-| Models        |                       Download Link                                           |    Notes                      |
-| --------------|-------------------------------------------------------------------------------|-------------------------------|
-| TI2V-30B       |     x      x        | Supports 540P
-
 
 ## 1. Introduction
 We present Step-Video-TI2V, a state-of-the-art text-driven image-to-video generation model with 30B parameters, capable of generating videos up to 102 frames
