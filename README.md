@@ -78,9 +78,15 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
   </tr>
 </table>
 
+
 ## Camera Control
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
+  <tr>
+    <th style="width: 33%;">镜头固定</th>
+    <th style="width: 33%;">镜头左移</th>
+    <th style="width: 33%;">镜头右摇</th>
+  </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" width="30%" controls autoplay loop muted></video></td>
     <td><video src="https://github.com/user-attachments/assets/d310502a-4f7e-4a78-882f-95c46b4dfe67" width="30%" controls autoplay loop muted></video></td>
@@ -88,6 +94,18 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
   </tr>
 </table>
 
+<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
+  <tr>
+    <th style="width: 33%;">镜头固定</th>
+    <th style="width: 33%;">镜头左移</th>
+    <th style="width: 33%;">镜头右摇</th>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/f78f76a0-afe1-41b1-9914-f2f508c6ea50" width="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/3894ec0f-d483-41fe-8331-68b6e5bf6544" width="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/9de3aa20-c797-4dac-bef1-ee064ed96ed4" width="30%" controls autoplay loop muted></video></td>
+  </tr>
+</table>
 
 ## Special Effects
 
