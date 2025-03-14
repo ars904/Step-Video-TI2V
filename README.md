@@ -193,7 +193,7 @@ designed for the TI2V task, fostering future research and evaluation in this dom
   </tr>
   <tr>
     <td><strong>Total Score</strong></td>
-    <td><strong>87.98</strong></td>
+    <td style="background-color: lightgreen;"><strong>87.98</strong></td>
     <td>87.80</td>
     <td>87.49</td>
     <td>86.77</td>
@@ -201,21 +201,21 @@ designed for the TI2V task, fostering future research and evaluation in this dom
   <tr>
     <td><strong>I2V Score</strong></td>
     <td>95.11</td>
-    <td><strong>95.50</strong></td>
+    <td style="background-color: lightgreen;"><strong>95.50</strong></td>
     <td>94.63</td>
     <td>93.25</td>
   </tr>
   <tr>
     <td>Video-Text Camera Motion</td>
     <td>48.15</td>
-    <td><strong>49.22</strong></td>
+    <td style="background-color: lightgreen;"><strong>49.22</strong></td>
     <td>29.58</td>
     <td>46.45</td>
   </tr>
   <tr>
     <td>Video-Image Subject Consistency</td>
     <td>97.44</td>
-    <td><strong>97.85</strong></td>
+    <td style="background-color: lightgreen;"><strong>97.85</strong></td>
     <td>97.73</td>
     <td>95.88</td>
   </tr>
@@ -223,12 +223,12 @@ designed for the TI2V task, fostering future research and evaluation in this dom
     <td>Video-Image Background Consistency</td>
     <td>98.45</td>
     <td>98.63</td>
-    <td><strong>98.83</strong></td>
+    <td style="background-color: lightgreen;"><strong>98.83</strong></td>
     <td>96.47</td>
   </tr>
   <tr>
     <td><strong>Quality Score</strong></td>
-    <td><strong>80.86</strong></td>
+    <td style="background-color: lightgreen;"><strong>80.86</strong></td>
     <td>80.11</td>
     <td>80.36</td>
     <td>80.28</td>
@@ -236,21 +236,21 @@ designed for the TI2V task, fostering future research and evaluation in this dom
   <tr>
     <td>Subject Consistency</td>
     <td>95.62</td>
-    <td><strong>96.02</strong></td>
+    <td style="background-color: lightgreen;"><strong>96.02</strong></td>
     <td>94.52</td>
-    <td><strong>96.28</strong></td>
+    <td style="background-color: lightgreen;"><strong>96.28</strong></td>
   </tr>
   <tr>
     <td>Background Consistency</td>
     <td>96.92</td>
     <td>97.06</td>
     <td>96.47</td>
-    <td><strong>97.38</strong></td>
+    <td style="background-color: lightgreen;"><strong>97.38</strong></td>
   </tr>
   <tr>
     <td>Motion Smoothness</td>
     <td>99.08</td>
-    <td><strong>99.24</strong></td>
+    <td style="background-color: lightgreen;"><strong>99.24</strong></td>
     <td>98.09</td>
     <td>99.10</td>
   </tr>
@@ -258,13 +258,13 @@ designed for the TI2V task, fostering future research and evaluation in this dom
     <td>Dynamic Degree</td>
     <td>48.78</td>
     <td>36.58</td>
-    <td><strong>53.41</strong></td>
+    <td style="background-color: lightgreen;"><strong>53.41</strong></td>
     <td>38.13</td>
   </tr>
   <tr>
     <td>Aesthetic Quality</td>
     <td>61.74</td>
-    <td><strong>62.29</strong></td>
+    <td style="background-color: lightgreen;"><strong>62.29</strong></td>
     <td>61.04</td>
     <td>61.82</td>
   </tr>
@@ -272,10 +272,11 @@ designed for the TI2V task, fostering future research and evaluation in this dom
     <td>Imaging Quality</td>
     <td>70.17</td>
     <td>70.43</td>
-    <td><strong>71.12</strong></td>
+    <td style="background-color: lightgreen;"><strong>71.12</strong></td>
     <td>70.82</td>
   </tr>
 </table>
+
 
 
 ## 6. Online Engine
