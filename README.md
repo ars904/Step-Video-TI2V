@@ -88,7 +88,7 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 🔧 Motion Score Considerations
 motion_score = 5 or 10 offers smoother and more accurate motion than motion_score = 2, with motion_score = 10 providing the best responsiveness and camera tracking. Choosing the suitable setting enhances motion precision and fluidity.
  
-## Anime Style Generation
+## Anime-Style Generation
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
