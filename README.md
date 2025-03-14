@@ -83,9 +83,9 @@ torchrun --nproc_per_node $parallel run_parallel --model_dir $model_dir --vae_ur
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
-    <th style="width: 33%;">镜头固定</th>
-    <th style="width: 33%;">镜头左移</th>
-    <th style="width: 33%;">镜头右摇</th>
+    <th style="width: 33%;">镜头环绕</th>
+    <th style="width: 33%;">镜头推进</th>
+    <th style="width: 33%;">镜头拉远</th>
   </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/257847bc-5967-45ba-a649-505859476aad" width="30%" controls autoplay loop muted></video></td>
