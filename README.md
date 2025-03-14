@@ -88,7 +88,7 @@ motion_score = 5 or 10 offers smoother and more accurate motion than motion_scor
  
 ## Anime Style
 
-<table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
+<table border="0" style="width: 100%; margin-top: 1px;">
   <tr>
     <th style="width: 33%;">女生向前行走，背景是虚化模糊的效果</th>
     <th style="width: 33%;">女人眨眼，然后对着镜头做飞吻的动作。</th>
