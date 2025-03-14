@@ -180,36 +180,6 @@ We list some more useful configurations for easy usage:
 ##  📈 5. Benchmark
 
 To evaluate the performance of Step-Video-TI2V, we build [Step-Video-TI2V-Eval](Step-Video-TI2V/benchmark/Step-Video-TI2V-Eval at main · stepfun-ai/Step-Video-TI2V), a new benchmark designed for the text-driven image-to-video generation task. The dataset comprises 178 real-world and 120 anime-style prompt-image pairs, ensuring broad coverage of diverse user scenarios. To achieve comprehensive representation, we developed a fine-grained schema for data collection in both categories.
-
-<table border="0" style="width: 100%; text-align: center; margin-top: 10px; border-collapse: collapse; border-radius: 8px; overflow: hidden;">
-  <thead>
-    <tr style="">
-      <th style="width: 25%; padding: 10px;">vs. OSTopA</th>
-      <th style="width: 25%; padding: 10px;">vs. OSTopB</th>
-      <th style="width: 25%; padding: 10px;">vs. CSTopC</th>
-      <th style="width: 25%; padding: 10px;">vs. CSTopD</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>37-63-79</td><td>101-48-29</td><td>41-46-73</td><td>92-51-18</td></tr>
-    <tr><td>40-35-44</td><td>94-16-10</td><td>52-35-47</td><td>87-18-17</td></tr>
-    <tr><td>46-92-39</td><td>43-71-64</td><td>45-65-50</td><td>36-77-47</td></tr>
-    <tr><td>42-61-18</td><td>50-35-35</td><td>29-62-43</td><td>37-63-23</td></tr>
-    <tr><td>52-57-49</td><td>71-40-66</td><td>58-33-69</td><td>67-33-60</td></tr>
-    <tr><td>75-17-28</td><td>67-30-24</td><td>78-17-39</td><td>68-41-14</td></tr>
-    <tr style="">
-      <td colspan="4" style="padding: 10px; font-weight: bold;">Total Score</td>
-    </tr>
-    <tr>
-      <td>292-325-277</td>
-      <td>426-240-228</td>
-      <td>303-258-321</td>
-      <td>387-283-179</td>
-    </tr>
-  </tbody>
-</table>
-
-
 [VBench](https://arxiv.org/html/2411.13503v1) is a comprehensive benchmark suite that deconstructs “video generation quality” into specific, hierarchical, and disentangled dimensions, each with tailored prompts and evaluation methods. We utilize the VBench-I2V benchmark to assess the performance of Step-Video-TI2V alongside other TI2V models. 
 
 
