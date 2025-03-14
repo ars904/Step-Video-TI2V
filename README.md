@@ -180,8 +180,9 @@ We list some more useful configurations for easy usage:
 
 ## 5. Comparisons
 
-To evaluate the performance of Step-Video-TI2V, We leverage [VBench-I2V](https://arxiv.org/html/2411.13503v1) to systematically compare Step-Video-TI2V with recently released leading open-source models. The detailed results presented in the table below, highlight our model’s superior performance over these models. We presented two results of Step-Video-TI2V, with the motion set to 5 and 10, respectively. As expected, this mechanism effectively balances the motion dynamics and stability (or consistency) of the generated videos. Additionally, we submitted our results to the VBench-I2V benchmark, where Step-Video-TI2V achieved the top-ranking position. We also introduce a new benchmark dataset [Step-Video-TI2V-Eval](https://github.com/stepfun-ai/Step-Video-TI2V/tree/main/benchmark/Step-Video-TI2V-Eval), specifically
-designed for the TI2V task, fostering future research and evaluation in this domain.
+To evaluate the performance of Step-Video-TI2V, We leverage [VBench-I2V](https://arxiv.org/html/2411.13503v1) to systematically compare Step-Video-TI2V with recently released leading open-source models. The detailed results presented in the table below, highlight our model’s superior performance over these models. We presented two results of Step-Video-TI2V, with the motion set to 5 and 10, respectively. As expected, this mechanism effectively balances the motion dynamics and stability (or consistency) of the generated videos. Additionally, we submitted our results to the VBench-I2V benchmark, where Step-Video-TI2V achieved the top-ranking position. 
+We also introduce a new benchmark dataset, [Step-Video-TI2V-Eval](https://github.com/stepfun-ai/Step-Video-TI2V/tree/main/benchmark/Step-Video-TI2V-Eval), specifically designed for the TI2V task to support future research and evaluation. The dataset includes 178 real-world and 120 anime-style prompt-image pairs, ensuring broad coverage of diverse user scenarios. To achieve comprehensive representation, we developed a fine-grained schema for data collection in both categories.
+
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
   <tr>
