@@ -278,7 +278,7 @@ designed for the TI2V task, fostering future research and evaluation in this dom
 </table>
 
 
-![figure1](assets/vben_vs_sota.png "figure1")
+![figure1](assets/vbench.png "figure1")
 
 
 ## 6. Online Engine
