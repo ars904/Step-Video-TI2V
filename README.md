@@ -38,9 +38,9 @@
 
 <table border="0" style="width: 100%; text-align: center; margin-top: 10px;">
   <tr>
-    <th style="width: 33%;">motion=2</th>
-    <th style="width: 33%;">motion=5</th>
-    <th style="width: 33%;">motion=20</th>
+    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion=2)</th>
+    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion=5)</th>
+    <th style="width: 33%;">两名男子在互相拳击，镜头环绕两人拍摄。(motion=20)</th>
   </tr>
   <tr>
     <td><video src="https://github.com/user-attachments/assets/31c48385-fe83-4961-bd42-7bd2b1edeb19" width="33%" controls autoplay loop muted></video></td>
