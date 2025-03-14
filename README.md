@@ -144,9 +144,20 @@ Grammy-Style Motion
 Certain camera movements, especially tracking shots, orbit shots, and complex motion effects, work significantly better with motion_score = 5 or 10 rather than motion_score = 2. Choosing the right setting can greatly enhance motion smoothness and accuracy.
 ## Visual Effects
 
-## Real-world
+<table border="0" style="width: 100%; text-align: center; margin-top: 1px;">
+  <tr>
+    <th style="width: 33%;">机器人变身特效</th>
+    <th style="width: 33%;">机器人变身特效</th>
+    <th style="width: 33%;">毒液特效</th>
+  </tr>
+  <tr>
+    <td><video src="https://github.com/user-attachments/assets/8fc6cc28-802c-4eff-bb18-6d512386d1f5" height="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/a6e4c817-3847-4ece-8b14-c57c4f666ba5" height="30%" controls autoplay loop muted></video></td>
+    <td><video src="https://github.com/user-attachments/assets/b2fbc737-b6b5-480a-b747-09ee58058a05" height="30%" controls autoplay loop muted></video></td>
+  </tr>
+</table>
 
-## Anime-style
+
 
 ## Table of Contents
 
