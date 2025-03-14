@@ -62,17 +62,16 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 
 ### Supported Camera Movements | 支持的运镜方式
 
-| Camera Movement         | 运镜方式            | Description / 说明 |
-|-------------------------|--------------------|--------------------|
-| **Fixed Camera**        | 固定镜头            | The camera remains stationary. / 摄像机固定不动。 |
-| **Pan Up/Down/Left/Right** | 镜头向上/下/左/右 | Moves the camera horizontally or vertically. / 水平或垂直移动摄像机。 |
-| **Tilt Up/Down/Left/Right** | 镜头上/下/左/右摇 | Tilts the camera angle up or down. / 调整摄像机角度上下倾斜。 |
-| **Zoom In/Out**  | 镜头放大/缩小  | Changes the focal length to magnify or reduce the scene. / 调整焦距放大或缩小画面。 |
-| **Dolly In/Out** | 镜头推进/拉远 | Moves the entire camera forward or backward. / 摄像机整体向前或向后移动。 |
-| **Camera Rotation**     | 镜头旋转            | Rotates the camera around its axis. / 摄像机围绕自身轴线旋转。 |
-| **Tracking Shot** | 镜头跟随 | The camera follows a subject. (Specify the subject.) / 摄像机跟随某个主体运动（需指定主体）。 |
-| **Orbit Shot** | 镜头环绕 | Moves the camera in a circular path around a subject. / 摄像机围绕指定主体环绕运动。 |
-| **Rack Focus** | 焦点转移 | Switches focus between subjects or objects. / 在不同主体或物体之间切换焦点。 |
+| Camera Movement         | 运镜方式            |
+| **Fixed Camera**        | 固定镜头            | 
+| **Pan Up/Down/Left/Right** | 镜头向上/下/左/右 | 
+| **Tilt Up/Down/Left/Right** | 镜头上/下/左/右摇 | 
+| **Zoom In/Out**  | 镜头放大/缩小  |
+| **Dolly In/Out** | 镜头推进/拉远 | 
+| **Camera Rotation**     | 镜头旋转            | 
+| **Tracking Shot** | 镜头跟随 | 
+| **Orbit Shot** | 镜头环绕 | 
+| **Rack Focus** | 焦点转移 |
 
 
 
