@@ -103,6 +103,12 @@ def add_inference_args(parser: argparse.ArgumentParser):
         help="Path to save the generated samples.",
     )
     group.add_argument(
+        "--output_file_name",
+        type=str,
+        default="",
+        help="Name to save the generated samples.",
+    )
+    group.add_argument(
         "--name_suffix",
         type=str,
         default="",

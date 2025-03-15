@@ -33,8 +33,8 @@ if __name__ == "__main__":
         time_shift=args.time_shift,
         pos_magic=args.pos_magic,
         neg_magic=args.neg_magic,
-        output_file_name=prompt[:50],
-        motion_score = args.motion_score,
+        output_file_name=args.output_file_name or prompt[:50],
+        motion_score=args.motion_score,
     )
     
     dist.destroy_process_group()
