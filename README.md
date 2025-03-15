@@ -133,7 +133,7 @@ Step-Video-TI2V is trained based on Step-Video-T2V. To incorporate the image con
 ## 3. Model Download
 | Models              | 🤗 Huggingface  | 🤖 Modelscope  | 🎛️ ComfyUI  |
 |:------------------:|:--------------:|:-------------:|:-----------------:|
-| Step-Video-TI2V   | [Download](https://huggingface.co/stepfun-ai/stepvideo-ti2v)  | Coming Soon | Coming Soon |
+| Step-Video-TI2V   | [Download](https://huggingface.co/stepfun-ai/stepvideo-ti2v)  | Coming Soon | [Link](https://github.com/stepfun-ai/ComfyUI-StepVideo) |
 
 
 
