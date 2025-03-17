@@ -51,7 +51,7 @@
   </tr>
 </table>
 
-🎯 Tips 
+🎯 Tips: 
 The default motion_score = 5 is suitable for general use. If you need more stability, set motion_score = 2, though it may lack dynamism in certain movements. For greater movement flexibility, you can use motion_score = 10 or motion_score = 20 to enable more intense actions. Feel free to customize the motion_score based on your creative needs to fit different use cases.
 
 ## Camera Control
@@ -85,7 +85,7 @@ The default motion_score = 5 is suitable for general use. If you need more stabi
 | **Rack Focus**  | 焦点转移           |
 
 
-🔧 Motion Score Considerations
+🔧 Motion Score Considerations:
 motion_score = 5 or 10 offers smoother and more accurate motion than motion_score = 2, with motion_score = 10 providing the best responsiveness and camera tracking. Choosing the suitable setting enhances motion precision and fluidity.
  
 ## Anime-Style Generation
