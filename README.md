@@ -3,7 +3,7 @@
 </p>
 <div align="center">
   <a href="https://yuewen.cn/videos"><img src="https://img.shields.io/static/v1?label=Step-Video&message=Web&color=green"></a> &ensp;
-  <a href="https://arxiv.org/abs/2502.10248"><img src="https://img.shields.io/static/v1?label=Tech Report&message=Arxiv&color=red"></a> &ensp;
+  <a href="https://arxiv.org/abs/2503.11251"><img src="https://img.shields.io/static/v1?label=Tech Report&message=Arxiv&color=red"></a> &ensp;
   <a href="https://x.com/StepFun_ai"><img src="https://img.shields.io/static/v1?label=X.com&message=Web&color=blue"></a> &ensp;
 </div>
 
@@ -15,7 +15,7 @@
 * Mar 17, 2025: 👋 We release the inference code and model weights of Step-Video-TI2V. [Download](https://huggingface.co/stepfun-ai/stepvideo-ti2v)
 * Mar 17, 2025: 👋 We release a new TI2V benchmark [Step-Video-TI2V-Eval](https://github.com/stepfun-ai/Step-Video-TI2V/tree/main/benchmark/Step-Video-TI2V-Eval)
 * Mar 17, 2025: 👋 Step-Video-TI2V has been integrated into [ComfyUI-Stepvideo-ti2v](https://github.com/stepfun-ai/ComfyUI-StepVideo). Enjoy!
-* Mar 17, 2025: 🎉 We have made our technical report available as open source. [Read](https://arxiv.org/abs/2502.10248)
+* Mar 17, 2025: 🎉 We have made our technical report available as open source. [Read](https://arxiv.org/abs/2503.11251)
 
 
 
@@ -287,7 +287,7 @@ The online version of Step-Video-TI2V is available on [跃问视频](https://yue
 
 ## 7. Citation
 ```
-@misc{ma2025stepvideot2vtechnicalreportpractice,
+@misc{huang2025stepvideoti2vtechnicalreport,
       title={Step-Video-TI2V Technical Report: A State-of-the-Art Text-Driven Image-to-Video Generation Model}, 
       author={Haoyang Huang, Guoqing Ma, Nan Duan, Xing Chen, Changyi Wan, Ranchen
   Ming, Tianyu Wang, Bo Wang, Zhiying Lu, Aojie Li, Xianfang Zeng, Xinhao
@@ -299,10 +299,10 @@ The online version of Step-Video-TI2V is available on [跃问视频](https://yue
   Xiaoniu Song, Yu Zhou, Binxing Jiao, Jiansheng Chen, Jing Li, Shuchang Zhou,
   Xiangyu Zhang, Yi Xiu, Yibo Zhu, Heung-Yeung Shum, Daxin Jiang},
       year={2025},
-      eprint={2502.10248},
+      eprint={2503.11251},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2502.10248}, 
+      url={https://arxiv.org/abs/2503.11251}, 
 }
 ```
 
