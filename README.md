@@ -124,7 +124,7 @@ with open-source and commercial TI2V engines using this dataset. Experimental re
 image-to-video generation task.
 
 ## 2. Model Summary
-Step-Video-TI2V is trained based on Step-Video-T2V. To incorporate the image condition as the first frame of the generated video, we encode it into latent representations using Step-Video- T2V’s Video-VAE and concatenate them along the channel dimension of the video latent. Additionally, we introduce a motion score condition, enabling users to control the dynamic level of the video generated from the image condition. 
+Step-Video-TI2V is trained based on Step-Video-T2V. To incorporate the image condition as the first frame of the generated video, we encode it into latent representations using Step-Video-T2V’s Video-VAE and concatenate them along the channel dimension of the video latent. Additionally, we introduce a motion score condition, enabling users to control the dynamic level of the video generated from the image condition. 
 
 <p align="center">
   <img width="80%" src="assets/model.png">
