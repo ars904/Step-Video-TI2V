@@ -154,7 +154,7 @@ pip install -e .
 ```bash
 python api/call_remote_server.py --model_dir where_you_download_dir &  ## We assume you have more than 4 GPUs available. This command will return the URL for both the caption API and the VAE API. Please use the returned URL in the following command.
 
-parallel=4  # or parallel=8
+parallel=1 or 4  # or parallel=8 Single GPU can also predict the results, although it will take longer
 url='127.0.0.1'
 model_dir=where_you_download_dir
 
