@@ -287,7 +287,7 @@ The online version of Step-Video-TI2V is available on [跃问视频](https://yue
 
 ## 7. Citation
 ```
-@misc{huang2025stepvideoti2vtechnicalreport,
+@misc{huang2025step,
       title={Step-Video-TI2V Technical Report: A State-of-the-Art Text-Driven Image-to-Video Generation Model}, 
       author={Haoyang Huang, Guoqing Ma, Nan Duan, Xing Chen, Changyi Wan, Ranchen
   Ming, Tianyu Wang, Bo Wang, Zhiying Lu, Aojie Li, Xianfang Zeng, Xinhao
